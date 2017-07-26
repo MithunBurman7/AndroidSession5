@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mithunburman.blinkeffectdemo.MainActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Live-Blink-Effect "
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#0000ff"
+        android:id="@+id/blink"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp" />
+
+    <Button
+        android:id="@+id/tapbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:text="Press Here"
+        android:layout_below="@+id/blink"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
